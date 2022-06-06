@@ -1,5 +1,5 @@
 setInterval(function () {
-    fetch("https://smart-glass-7.herokuapp.com/api")
+    fetch("http://smart-glass-7.herokuapp.com/api")
       .then((hasil) => hasil.json())
       .then((res) => {
         console.log(res);
